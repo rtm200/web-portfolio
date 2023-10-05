@@ -762,7 +762,6 @@ img {
         padding: 2.5rem 0;
     }
     .projects_line{
-    
     top: 15.4rem;
     left: 50%;
     width: 250px;
@@ -777,18 +776,13 @@ img {
 }
 /* small devices */
 @media screen and (max-width: 400px) {
-    .skills_card{
-        width: 300px;
-        height: 300px;
-    }
-    .list_content h3{
-        font-size: 1rem;
-    }
-    .list_content p{
-        font-size: .8rem;
-    }
-    .list_grid{
-        padding: 0 25px;
+    .projects_line{
+    top: 5.4rem;
+    left: 50%;
+    width: 250px;
+    height: 2px;
+    transform: translateX(-50%);
+    background: hsl(0,0%,50%);
     }
 }
 /*--- contact ---*/
