@@ -777,12 +777,7 @@ img {
 /* small devices */
 @media screen and (max-width: 400px) {
     .projects_line{
-    top: 5.4rem;
-    left: 50%;
-    width: 250px;
-    height: 2px;
-    transform: translateX(-50%);
-    background: hsl(0,0%,50%);
+    display:none;
     }
 }
 /*--- contact ---*/
